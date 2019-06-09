@@ -1,0 +1,58 @@
+{
+  "objects":
+  [
+    {
+      "id": "1",
+      "Nazwa": "Zamek Książąt Pomorskich",
+      "Miejsce": "ul. Korsarzy 34",
+      "Notatka": "Dawna siedziba książąt z pomorskiej dynastii Gryfitów usytuowana jest na wysokiej skarpie, blisko Odry.",
+      "Opis": "Już we wczesnym średniowieczu był tu silnie ufortyfikowany słowiański gród. Dziś  zabytkowy zamek jest siedzibą wielu instytucji kulturalnych i dużą atrakcją turystyczną regionu. Między innymi mieści się tu warte obejrzenia Muzeum Zamku Książąt Pomorskich, Opera na Zamku, Biuro Wystaw Artystycznych, Centrum Informacji Kulturalnej i Turystycznej 'Zamek' oraz Pracownia Archeologiczna. W zabytkowych  wnętrzach i na dziedzińcach odbywają się liczne imprezy kulturalne.",
+      "Przystanek": [
+            {
+                "Nazwa": "Wyszyńskiego",
+                "Tramwaje": "2, 3, 6, 7, 8",
+                "Autobusy": "52, 62, 70, 75, 76, A, B, C, G, H"
+            },
+            {
+              "Nazwa": "Plac Żołnierza Polskiego",
+              "Tramwaje": "2, 3, 6, 7, 8",
+              "Autobusy": "52, 62, 70, 75, 76, A, B, C, G, H"
+            },
+            {
+              "Nazwa": "Bulwar Piastowski",
+              "Tramwaje": "6",
+              "Autobusy": ""
+            }
+        ],
+      "Zdjęcie": "",
+      "Ulubiony": false
+    },
+    {
+      "id": "2",
+      "Nazwa": "Wały Chrobrego",
+      "Miejsce": "Wały Chrobrego",
+      "Notatka": "Założenie tarasowe schodzące do Odry, to atrakcja turystyczna Szczecina, z pawilonami, fontannami i rzeźbami, na miejscu zlikwidowanego fortu Leopolda I (1902-1906).",
+      "Opis": "Wały Chrobrego -  Składa się z gmachów, które warto zobaczyć: Krajowego Zakładu Ubezpieczeń (1902-1903); Naczelnej Dyrekcji Ceł (1914-1921), w stylu neobarokowym - obecnie Wyższa Szkoła Morska; Muzeum Miejskiego, w stylu baroku wilhelmińskiego (1908-1913) - obecnie Muzeum Narodowe; Rejencji, w stylu neomanierystycznym (1906-1911) - obecnie Urząd Wojewódzki.",
+      "Przystanek": [
+            {
+                "Nazwa": "Wały Chrobrego",
+                "Tramwaje": "6",
+                "Autobusy": ""
+            },
+            {
+              "Nazwa": "Wyszyńskiego",
+              "Tramwaje": "2, 3, 6, 7, 8",
+              "Autobusy": "52, 62, 70, 75, 76, A, B, C, G, H"
+            },
+            {
+              "Nazwa": "Plac Rodła",
+              "Tramwaje": "1, 2, 3, 5, 10, 11, 12",
+              "Autobusy": "58, 59, A, B, C, F, H"
+            }
+        ],
+      "Zdjęcie": "",
+      "Ulubiony": true
+    }
+    
+  ]
+}

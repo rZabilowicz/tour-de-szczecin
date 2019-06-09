@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+$menu-background-color:#1F81C2;
+$button-background-color:#7EB744;
+
+body {
+    background-color: #E0E5EB;
+}
+
+.main-tile {
+    margin-top: 20px;
+}
+
+.btn {
+    color: white;
+    padding-right: 25px;
+    padding-left: 25px;
+    &-main {
+        background-color: $button-background-color;
+    }
+    &-blue {
+        background-color: $menu-background-color;
+    }
+
+}
+
+.icons {
+    font-size: 35px;
+    i {
+        margin-right: 4px;
+    }
+    .fa {
+        &-heart, &-hand-holding-heart {
+            color: red;
+        }
+        &-map-marker-alt {
+            color: $button-background-color;
+        }
+    }
+
+}
+
+.box {
+    margin-bottom: 20px;
+}

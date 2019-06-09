@@ -3,16 +3,39 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { SearchingComponent } from './searching/searching.component';
+import { MapComponent } from './map/map.component';
+import { ObjectsComponent } from './objects/objects.component';
+import { YourObjectsComponent } from './your-objects/your-objects.component';
+import { NewsComponent } from './news/news.component';
+import { SettingsComponent } from './settings/settings.component';
+import { HttpClientModule } from '@angular/common/http';
+import { SingleObjectComponent } from './single-object/single-object.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    PageNotFoundComponent,
+    SearchingComponent,
+    MapComponent,
+    ObjectsComponent,
+    YourObjectsComponent,
+    NewsComponent,
+    SettingsComponent,
+    SingleObjectComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

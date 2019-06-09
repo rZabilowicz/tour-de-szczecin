@@ -1,0 +1,37 @@
+<div class="container md-3 main-tile">
+    <div class="row">
+      <ng-container >
+          <div class="col-sm-12">
+              <div class="card w-100 box">
+                  <div class="card-body">
+                    <h2 class="card-title">{{ singleObject.Nazwa }}</h2>
+                    <img src="../../assets/logo.png" style=" max-width: 100%;
+                    height: auto;" alt="Zdjęcie obiektu">
+                    <div class="row">
+                      <div class="col-sm-12">
+                          <span>
+                              Ocena: 4.5
+                            </span>
+                            <span class="icons float-right">
+                                <i class="fas fa-hand-holding-heart"></i>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <i class="fas fa-info-circle"></i>
+                            </span>
+                      </div>
+                    </div>
+                    <p>
+                      {{singleObject.Notatka}}
+                    </p>
+                    <p *ngIf="readMore">
+                      {{singleObject.Opis}}
+                    </p>
+                    <button type="button" class="btn btn-primary btn-sm" (click)="changeReadMore()">
+                      <ng-container *ngIf="!readMore">Czytaj więcej</ng-container>
+                      <ng-container *ngIf="readMore">Pokaż mniej</ng-container>
+                    </button>
+                  </div>
+              </div>
+          </div>
+      </ng-container>   
+    </div>
+</div>

@@ -1,0 +1,25 @@
+<div class="container md-3 main-tile">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form-group">
+        <div class="row box">
+          <div class="col-sm-12">
+            <input type="text" class="form-control" formControlName="search"
+            placeholder="Zamek">
+          </div>
+        </div>
+
+        <div class="row box">
+            <div class="col-sm-12">
+                <button type="button" class="btn btn-blue">Kategorie</button>
+                <button type="submit" class="btn btn-blue">Wyszukaj</button>
+            </div>
+            <div class="col-sm-12">
+                <a routerLink="">
+                  <small id="emailHelp" class="form-text text-muted">
+                    Pomóc Ci?
+                  </small>
+                </a>
+            </div>
+            
+        </div>     
+      </form>
+</div>
