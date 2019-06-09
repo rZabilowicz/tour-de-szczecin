@@ -21,22 +21,26 @@
                             </div>
                       </div>
                     </div>
-                    <p>
+
+                    <p class="description">
                       {{singleObject.Notatka}}
                     </p>
-                    <p *ngIf="readMore">
+                    <p *ngIf="readMore" class="description">
                       {{singleObject.Opis}}
                     </p>
-                    <button type="button" class="btn btn-primary btn-sm" (click)="changeReadMore()">
+                    <button type="button" class="btn btn-blue btn-sm" (click)="changeReadMore()">
                       <ng-container *ngIf="!readMore">Czytaj więcej</ng-container>
                       <ng-container *ngIf="readMore">Pokaż mniej</ng-container>
                     </button>
-                    
+                    <br/>
+                    <br/>
+
+                    <h4>Dodaj opinię</h4>
                     <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form-group">
                         <div class="row box">
                           <div class="col-sm-12">
                             <input type="text" class="form-control" formControlName="search"
-                            placeholder="Wpisz co chcesz wyszukać">
+                            placeholder="Wpisz komentarz">
                           </div>
                         </div>
                 
@@ -47,6 +51,14 @@
                         </div>     
                       </form>
 
+                      <h4>Opinie</h4>
+                      <div class="row" *ngFor="let comment of comments">
+                        <div class="col-sm-12">
+                            <i class="far fa-user"></i> {{ comment.user }}
+                            <br>
+                            <p class="description"> {{ comment.content }} </p>
+                        </div>
+                      </div>
                   </div>
               </div>
           </div>

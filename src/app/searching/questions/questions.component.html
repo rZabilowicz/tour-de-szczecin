@@ -1,3 +1,41 @@
-<p>
-  questions works!
-</p>
+<div class="main-tile">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card w-100 box">
+                <div class="card-body">
+                  <h3 class="card-title">Pytania</h3>
+
+                  <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form-inline">
+                      <label class="my-1 mr-2" for="transport">Czym chcesz poruszać się po mieście?</label>
+                      <select id="transport" class="custom-select form-input" formControlName="transport">
+                        <option value="1">Samochód</option>
+                        <option value="2">Tramwaj</option>
+                        <option value="3">Rower</option>
+                        <option value="4">Pieszo</option>
+                      </select>
+
+                      <label class="my-1 mr-2" for="objectType">Jakim typem atrakcji jesteś zainteresowany?</label>
+                      <select id="objectType" class="custom-select form-input" formControlName="objectType">
+                        <option value="1">Zabytki</option>
+                        <option value="2">Obiekty przyrodnicze</option>
+                        <option value="3">Obiekty rozrywkowe</option>
+                        <option value="4">Obiekty sakralne</option>
+                      </select>
+
+                      <label class="my-1 mr-2" for="age">Jaki jest Twój przedział wiekowy (lata)?</label>
+                      <select id="age" class="custom-select form-input" formControlName="age">
+                        <option value="1">Poniżej 16</option>
+                        <option value="2">16 - 29</option>
+                        <option value="3">30-40</option>
+                        <option value="4">Powyżej 40</option>
+                      </select>
+
+                      <button type="submit" class="btn my-1 btn-blue">Submit</button>
+                  </form>
+
+
+                </div>
+            </div>
+        </div>
+      </div>
+</div>

@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 $menu-background-color:#1F81C2;
 $button-background-color:#7EB744;
+$grey: #8492A6;
 
 body {
     background-color: #E0E5EB;
@@ -41,4 +42,8 @@ body {
 
 .box {
     margin-bottom: 20px;
+}
+
+.description {
+    color: $grey;
 }

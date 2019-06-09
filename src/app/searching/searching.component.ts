@@ -17,13 +17,12 @@ export class SearchingComponent implements OnInit {
 
   ngOnInit() {
   }
-  
+
   onSubmit() {
     let object = this.form.get('search').value;
-    console.log(object);
     this.router.navigateByUrl('searching?search=' + object );
   }
-  
+
   change() {
     this.categories = !this.categories;
   }
