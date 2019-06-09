@@ -9,14 +9,16 @@
                     height: auto;" alt="Zdjęcie obiektu">
                     <div class="row">
                       <div class="col-sm-12">
-                          <span>
-                              Ocena: 4.5
-                            </span>
-                            <span class="icons float-right">
-                                <i class="fas fa-hand-holding-heart"></i>
-                                <i class="fas fa-map-marker-alt"></i>
-                                <i class="fas fa-info-circle"></i>
-                            </span>
+                          <div>
+                              <h5 style="display:inline-block; margin-right: 10px;">Ocena</h5>
+                              <span>
+                                  <i class="far fa-star icon"></i>
+                                  <i class="far fa-star icon"></i>
+                                  <i class="far fa-star icon"></i>
+                                  <i class="far fa-star icon"></i>
+                                  <i class="far fa-star icon"></i>
+                              </span>
+                            </div>
                       </div>
                     </div>
                     <p>
@@ -29,6 +31,22 @@
                       <ng-container *ngIf="!readMore">Czytaj więcej</ng-container>
                       <ng-container *ngIf="readMore">Pokaż mniej</ng-container>
                     </button>
+                    
+                    <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form-group">
+                        <div class="row box">
+                          <div class="col-sm-12">
+                            <input type="text" class="form-control" formControlName="search"
+                            placeholder="Wpisz co chcesz wyszukać">
+                          </div>
+                        </div>
+                
+                        <div class="row box">
+                            <div class="col-sm-12">
+                                <button type="submit" class="btn btn-blue float-right">Wyślij</button>
+                            </div>                        
+                        </div>     
+                      </form>
+
                   </div>
               </div>
           </div>

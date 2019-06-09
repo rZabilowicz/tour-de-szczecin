@@ -3,17 +3,17 @@
         <div class="row box">
           <div class="col-sm-12">
             <input type="text" class="form-control" formControlName="search"
-            placeholder="Zamek">
+            placeholder="Wpisz co chcesz wyszukać">
           </div>
         </div>
 
         <div class="row box">
             <div class="col-sm-12">
-                <button type="button" class="btn btn-blue">Kategorie</button>
+                <a class="btn btn-blue" (click)="change()">Kategorie</a>
                 <button type="submit" class="btn btn-blue">Wyszukaj</button>
             </div>
             <div class="col-sm-12">
-                <a routerLink="">
+                <a routerLink="/searching/questions">
                   <small id="emailHelp" class="form-text text-muted">
                     Pomóc Ci?
                   </small>
@@ -22,4 +22,7 @@
             
         </div>     
       </form>
+      <app-categories *ngIf="categories"></app-categories>
+      <router-outlet></router-outlet>
+
 </div>

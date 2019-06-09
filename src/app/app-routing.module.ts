@@ -13,17 +13,16 @@ import { SingleObjectComponent } from './single-object/single-object.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'map', component: MapComponent },
-  { path: 'searching', component: SearchingComponent },
   { path: 'objects', component: ObjectsComponent },
   { path: 'your-objects', component: YourObjectsComponent },
   { path: 'news', component: NewsComponent },
   { path: 'settings', component: SettingsComponent },
   { path: 'single-object/:id', component: SingleObjectComponent },
-  { path: '**', component: PageNotFoundComponent }
+ // { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { enableTracing: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

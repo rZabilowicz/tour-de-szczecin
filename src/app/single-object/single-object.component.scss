@@ -1,4 +1,11 @@
+@import "../../styles.scss";
+
 img {
     max-width: 100%;
     height: auto;
+}
+
+.icon {
+    font-size: 25px;
+    color: $button-background-color
 }

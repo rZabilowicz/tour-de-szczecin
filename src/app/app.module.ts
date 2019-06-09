@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,13 +15,13 @@ import { SettingsComponent } from './settings/settings.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SingleObjectComponent } from './single-object/single-object.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SearchingModule } from './searching/searching.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     PageNotFoundComponent,
-    SearchingComponent,
     MapComponent,
     ObjectsComponent,
     YourObjectsComponent,
@@ -29,10 +30,12 @@ import { ReactiveFormsModule } from '@angular/forms';
     SingleObjectComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    SearchingModule,
   ],
   providers: [
   ],

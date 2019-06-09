@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute} from '@angular/router';
 import * as data from '../../data/objects.json';
 import { RootObject } from '../models/objects';
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-single-object',
@@ -14,6 +15,9 @@ export class SingleObjectComponent implements OnInit {
   objects: RootObject[] = data.objects;
   singleObject: RootObject;
   readMore = false;
+  form = new FormGroup({
+    search: new FormControl(''),
+  });
 
   constructor(private route: ActivatedRoute) { }
 
@@ -34,6 +38,10 @@ export class SingleObjectComponent implements OnInit {
 
   changeReadMore() {
     this.readMore = !this.readMore;
+  }
+
+  onSubmit() {
+
   }
 
 }
