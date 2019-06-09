@@ -16,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SingleObjectComponent } from './single-object/single-object.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SearchingModule } from './searching/searching.module';
+import { SingleNewsComponent } from './news/single-news/single-news.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SearchingModule } from './searching/searching.module';
     YourObjectsComponent,
     NewsComponent,
     SettingsComponent,
-    SingleObjectComponent
+    SingleObjectComponent,
+    SingleNewsComponent,
   ],
   imports: [
     CommonModule,

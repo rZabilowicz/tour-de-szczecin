@@ -4,8 +4,8 @@
             <div class="card w-100 box">
                 <div class="card-body">
                   <h3 class="card-title">{{item.title}}</h3>
-                  <p class="card-text">{{item.content}}</p>
-                  <a href="#" class="btn btn-main float-right">Czytaj więcej</a>
+                  <p class="card-text">{{item.shortInfo}}</p>
+                  <a routerLink="/news/{{item.id}}" class="btn btn-main float-right">Czytaj więcej</a>
                 </div>
             </div>
         </div>

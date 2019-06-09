@@ -9,6 +9,7 @@ import { YourObjectsComponent } from './your-objects/your-objects.component';
 import { NewsComponent } from './news/news.component';
 import { SettingsComponent } from './settings/settings.component';
 import { SingleObjectComponent } from './single-object/single-object.component';
+import { SingleNewsComponent } from './news/single-news/single-news.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'news', component: NewsComponent },
   { path: 'settings', component: SettingsComponent },
   { path: 'single-object/:id', component: SingleObjectComponent },
+  { path: 'news/:id', component: SingleNewsComponent },
  // { path: '**', component: PageNotFoundComponent }
 ];
 
