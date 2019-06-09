@@ -9,3 +9,10 @@ img {
     font-size: 25px;
     color: $button-background-color
 }
+
+.comment-content {
+    display: block;
+    margin-top: 5px;
+    padding-left: 2px;
+    border-left: 2px solid $grey;
+}
