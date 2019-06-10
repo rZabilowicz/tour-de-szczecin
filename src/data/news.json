@@ -3,13 +3,13 @@
     [
         {
             "id": "1",
-            "title": "Nowe funkcjonalności",
+            "title": "Zobacz nasze nowe funkcjonalności",
             "shortInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a semper augue. Morbi fringilla accumsan sem nec blandit.",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a semper augue. Morbi fringilla accumsan sem nec blandit. Morbi molestie, ante sed luctus commodo, massa ante ultrices arcu, ac maximus mauris ipsum a mi. Donec nisi mauris, mollis nec efficitur at, imperdiet in ex. Curabitur ut pharetra lacus. Aenean ultrices, velit vel mattis pellentesque, tortor sem pulvinar augue, ut mollis metus lorem sit amet tellus. Nam gravida sapien nec enim placerat condimentum. Maecenas tincidunt ipsum nec interdum convallis. Vestibulum facilisis vulputate ex vel congue. Donec vehicula lorem vitae consequat tincidunt. Maecenas eu vehicula metus. Sed luctus diam nec risus luctus tempus. Pellentesque et lacus at urna faucibus vestibulum. Cras efficitur risus in aliquam mollis."
         },
         {   
             "id": "2",
-            "title": "Już ponad 1000 pobrań!",
+            "title": "Już ponad 1000 pobrań! Dziękujemy :)",
             "shortInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a semper augue. Morbi fringilla accumsan sem nec blandit.",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a semper augue. Morbi fringilla accumsan sem nec blandit. Morbi molestie, ante sed luctus commodo, massa ante ultrices arcu, ac maximus mauris ipsum a mi. Donec nisi mauris, mollis nec efficitur at, imperdiet in ex. Curabitur ut pharetra lacus. Aenean ultrices, velit vel mattis pellentesque, tortor sem pulvinar augue, ut mollis metus lorem sit amet tellus. Nam gravida sapien nec enim placerat condimentum. Maecenas tincidunt ipsum nec interdum convallis. Vestibulum facilisis vulputate ex vel congue. Donec vehicula lorem vitae consequat tincidunt. Maecenas eu vehicula metus. Sed luctus diam nec risus luctus tempus. Pellentesque et lacus at urna faucibus vestibulum. Cras efficitur risus in aliquam mollis."
         },
