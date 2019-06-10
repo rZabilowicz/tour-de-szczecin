@@ -25,7 +25,7 @@
               "Autobusy": ""
             }
         ],
-      "Zdjęcie": "",
+      "Zdjecie": "1",
       "Ulubiony": false
     },
     {
@@ -52,9 +52,159 @@
               "Autobusy": "58, 59, A, B, C, F, H"
             }
         ],
-      "Zdjęcie": "",
+      "Zdjecie": "2",
       "Ulubiony": true
+    },
+    {
+      "id": "3",
+      "Nazwa": "Kolejowy most zwodzony",
+      "Ocena": "4.5",
+      "Miejsce": "Regalica",
+      "Notatka": "Jedyny w Polsce czynny zwodzony most kolejowy (i jedyny mechaniczny w Europie).",
+      "Opis": "Znajduje się nad Regalicą. Dopłyniemy w to miejsce (rzeka Regalica jest wschodnim ramieniem Odry) płynąc ze Szczecina w kierunku Gryfina. Cały most ma około 262 metry i składa się z pięciu przęseł, piąte przęsło - część zwodzona - znajduje się przy zachodnim  brzegu Regalicy.",
+      "Przystanek": [
+            {
+                "Nazwa": "Metalowa",
+                "Tramwaje": "",
+                "Autobusy": "64, 66, 533, PKS 1"
+            },
+            {
+              "Nazwa": "Podjuchy",
+              "Tramwaje": "2, 3, 6, 7, 8",
+              "Autobusy": "61, 64, 66, 85, 95, 533"
+            }
+        ],
+      "Zdjecie": "3",
+      "Ulubiony": false
+    },
+    {
+      "id": "4",
+      "Nazwa": "Fontanna Orła Białego",
+      "Ocena": "3.5",
+      "Miejsce": "pl. Orła Białego",
+      "Notatka": "Jedna z popularnych szczecińskich fonnach położona w centrum miasta na placu Orła Białego.",
+      "Opis": "Na placu Orła Białego (dawnym Rossmarkt), w jego północnej części, do niedawna jeszcze w otoczeniu dwóch czterdziestoletnich wierzb, stoi fontanna Orła Białego. Autorem projektu z 1730 roku był berliński architekt Johann Friedrich Grael, jej wykonawcami natomiast – dwaj inni twórcy: rzeźbiarz – Johann Conrad Koch i mistrz kamieniarski – Angerer. Prace wykonawcze trwały do 1732 roku.",
+      "Przystanek": [
+            {
+                "Nazwa": "Brama Portowa",
+                "Tramwaje": "1, 9, 2, 7, 8, 3, 10",
+                "Autobusy": "61, 87, 75, 76, A, B, C, G, H, 522, 531, 532, 521, 527, 528, 529"
+            },
+            {
+              "Nazwa": "Tkacka",
+              "Tramwaje": "",
+              "Autobusy": "52"
+            }
+        ],
+      "Zdjecie": "4",
+      "Ulubiony": false
+    },
+    {
+      "id": "5",
+      "Nazwa": "Jezioro Szmaragdowe",
+      "Ocena": "5",
+      "Miejsce": "Zdroje, ul. Kopalniana",
+      "Notatka": "Sztuczne jezioro położone na osiedlu Szczecina – Zdrojach, na obszarze Parku Krajobrazowego Puszcza Bukowa.",
+      "Opis": "Wiele wspólnego ze sobą mają Jezioro Turkusowe z wyspy Wolin i Jezioro Szmaragdowe ze szczecińskich Zdrojów. Obydwa są wyrobiskami dawnych kopalni kredy wapiennej, a ich czyste wody mają intrygujący zielonkawy kolor, pochodzący od wapnistego podłoża. W Zdrojach do 1925 r. działała kopalnia eksploatująca miejscowy porwak kredowy na potrzeby pobliskiej cementowni. 16 lipca owego roku do wnętrza głębokiego wyrobiska runęła woda. Zginęło kilku robotników. Katastrofa miała tak gwałtowny przebieg, że nie zdążono ewakuować maszyn i narzędzi. Pozostały na dnie jeziora razem z torowiskami i wagonikami kolejki kopalnianej. Powstałe wówczas Jezioro Szmaragdowe ma 18 m głębokości.",
+      "Przystanek": [
+            {
+                "Nazwa": "Jezioro Szmaragdowe",
+                "Tramwaje": "",
+                "Autobusy": "64, 66, 533, PKS 1"
+            }
+        ],
+      "Zdjecie": "5",
+      "Ulubiony": true
+    },
+    {
+      "id": "6",
+      "Nazwa": "Wzgórze akademickie",
+      "Ocena": "3",
+      "Miejsce": "Szczecin Podjuchy",
+      "Notatka": "Jedno z ciekawych wzgórz położonych w Szczecinie z którego możesz podziwiać panoramę.",
+      "Opis": "Wzniesienie o wysokości 51 m n.p.m. w północnej części Wzgórz Bukowych, na terenie Parku Leśnego Zdroje, w dzielnicy Szczecin-Podjuchy. Wysunięty ku zachodowi fragment wzgórza jest częścią hałdy dawnej kopalni kredy.",
+      "Przystanek": [
+            {
+                "Nazwa": "Złota nż",
+                "Tramwaje": "",
+                "Autobusy": "64, 66, 533, PKS 1"
+            }
+        ],
+      "Zdjecie": "6",
+      "Ulubiony": true
+    },
+    {
+      "id": "7",
+      "Nazwa": "Pałac Velthusena",
+      "Ocena": "4.5",
+      "Miejsce": "Staromłyńska 13",
+      "Notatka": "Najbardziej okazały barokowo-klasycystyczny pałac miejski na Pomorzu Zachodnim.",
+      "Opis": "Wyróżnia się harmonijną formą architektoniczną i bogatą dekoracją rzeźbiarską, stanowiąc ważny element kompozycji urbanistycznej jednego z głównych placów szczecińskiego Starego Miasta, jakim jest dawny Rynek Koński.",
+      "Przystanek": [
+            {
+                "Nazwa": "Brama Portowa",
+                "Tramwaje": "1, 9, 2, 7, 8, 3, 10",
+                "Autobusy": "61, 87, 75, 76, A, B, C, G, H, 522, 531, 532, 521, 527, 528, 529"
+            },
+            {
+              "Nazwa": "Plac Żołnierza Polskiego",
+              "Tramwaje": "1, 2, 3, 10, 12",
+              "Autobusy": "86"
+            }
+        ],
+      "Zdjecie": "7",
+      "Ulubiony": true
+    },
+    {
+      "id": "8",
+      "Nazwa": "Dawny Cesarski Urząd Pocztowy",
+      "Ocena": "4.5",
+      "Miejsce": "Dworcowa 20",
+      "Notatka": "Wzniesiony w latach 1872-1875, rozbudowany w 1877 r.",
+      "Opis": "Dawny Cesarski Urząd Pocztowy - obecnie Urząd Pocztowy nr 2.",
+      "Przystanek": [
+            {
+                "Nazwa": "Dworcowa",
+                "Tramwaje": "6",
+                "Autobusy": "70, 75"
+            }
+        ],
+      "Zdjecie": "8",
+      "Ulubiony": true
+    },
+    {
+      "id": "9",
+      "Nazwa": "Dom ryglowy z XIX w.",
+      "Ocena": "3.5",
+      "Miejsce": "Krzekowo, ul. Szeroka 6",
+      "Notatka": "Budynek chrakterystyczny dla ryglowej zabudowy miejskiej.",
+      "Opis": "Charakterystyczną cechą wsi Krzekowo, obecnej dzielnicy Szczecina była ryglowa zabudowa wiejska. Świadectwem jest dom konstrukcji szachulcowej z 1895 r. z charakterystycznym szerokim frontem przy ul. Szerokiej 6. Obecni właściciele podjęli trudne zadanie doprowadzenia budynku z ruiny (1988 r.) do stanu obecnego, mimo wielu trudności udało się to Im znakomicie.",
+      "Przystanek": [
+            {
+                "Nazwa": "Krzekowo",
+                "Tramwaje": "4, 5, 7",
+                "Autobusy": "60, 74, 75, 105"
+            }
+        ],
+      "Zdjecie": "9",
+      "Ulubiony": false
+    },
+    {
+      "id": "10",
+      "Nazwa": "Wieża Bismarcka",
+      "Ocena": "3.5",
+      "Miejsce": "Zielone Wzgórze w Gocławiu",
+      "Notatka": "Inaczej Wieża Gocławska.  wieża Bismarcka z tarasem widokowym znajdująca się na Zielonym Wzgórzu na szczecińskim osiedlu Gocław. Jest najdroższą z wybudowanych wież Bismarcka.",
+      "Opis": "Szczecińska wieża Bismarcka jest jedną z około 240 takich budowli wzniesionych na całym świecie i jedną z 40, jakie Niemcy wybudowali na terenie Polski. Budowla została otwarta w 1921 r., wzorowana na mauzoleum Teodoryka Wielkiego (króla Ostrogotów, ok. 455-526) w Rawennie. Ta szczecińska atrakcja architektoniczna ma 25 m wysokości i zbudowana jest z betonu, licowanego z zewnątrz wapieniem muszlowym. Dni swoje świetności ma ona już za sobą, obecnie jest w rękach prywatnego właściciela i nie można jej zwiedzać. W ostatnich latach była nazywana Wieżą Samobójców, ze względu na wiele śmiertelnych upadków z jej szczytu. Jedynie ludzie lubiący sport wspinaczkowy chętnie ją odwiedzają - na wieży znajduje się około 40 dróg wspinaczkowych o różnym stopniu trudności.",
+      "Przystanek": [
+            {
+                "Nazwa": "Gocław",
+                "Tramwaje": "6",
+                "Autobusy": ""
+            }
+        ],
+      "Zdjecie": "10",
+      "Ulubiony": false
     }
-    
   ]
 }

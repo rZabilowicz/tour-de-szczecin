@@ -5,7 +5,7 @@ export interface RootObject {
     Notatka: string;
     Opis: string;
     Przystanek: Przystanek[];
-    Zdjęcie: string;
+    Zdjecie: string;
     Ulubiony: boolean;
 }
 

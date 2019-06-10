@@ -39,10 +39,9 @@ export class SingleObjectComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.id = this.route.snapshot.paramMap.get('id');
-    console.log(this.id);
     this.singleObject = this.chooseCorrectObject();
-    console.log(this.singleObject);
   }
+  
   ngOnDestroy() {
     this.singleObject = null;
   }

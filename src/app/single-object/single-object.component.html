@@ -5,8 +5,8 @@
               <div class="card w-100 box">
                   <div class="card-body">
                     <h2 class="card-title">{{ singleObject.Nazwa }}</h2>
-                    <img src="../../assets/logo.png" style=" max-width: 100%;
-                    height: auto;" alt="Zdjęcie obiektu">
+                    <img src="../../assets/{{singleObject.Zdjecie}}.jpg" style="max-width: 100%;
+                  height: auto; margin-bottom: 8px" alt="Zdjęcie obiektu" >
                     <div class="row">
                       <div class="col-sm-12">
                           <div>
@@ -22,6 +22,7 @@
                       </div>
                     </div>
 
+                    <h5> {{singleObject.Miejsce}} </h5>
                     <p class="description">
                       {{singleObject.Notatka}}
                     </p>
@@ -35,6 +36,11 @@
                     <br/>
                     <br/>
 
+                    <h4>Najblizsze przystanki i linie:</h4>
+                    <span *ngFor="let stop of singleObject.Przystanek">
+                      <p>{{ stop.Nazwa }} - {{ stop.Autobusy }}, {{ stop.Tramwaje }}</p>
+                    </span>
+
                     <h4>Dodaj opinię</h4>
                     <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form-group">
                         <div class="row box">
@@ -46,7 +52,7 @@
                 
                         <div class="row box">
                             <div class="col-sm-12">
-                                <button type="submit" class="btn btn-blue float-right">Wyślij</button>
+                                <button type="submit" class="btn btn-blue">Wyślij</button>
                             </div>                        
                         </div>     
                       </form>

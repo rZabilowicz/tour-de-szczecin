@@ -1,13 +1,19 @@
 <div class="container md-3 main-tile">
-    <h1>Najwyżej oceniane</h1>
+  <div class="row">
+      <div class="col-sm-12">
+          <h1 class="text-center">Najwyżej oceniane</h1>
+      </div>
+  </div>
+</div>
+<div class="container md-3 main-tile">
     <div class="row display-flex">
         <div class="col-sm-6 col-box" *ngFor="let item of objects">
             
             <div class="card w-100 box">
                 <div class="card-body">
                   <h2 class="card-title">{{ item.Nazwa }}</h2>
-                  <img src="../../assets/logo.png" style=" max-width: 100%;
-                  height: auto;" alt="Zdjęcie obiektu">
+                  <img src="../../assets/{{item.Zdjecie}}.jpg" style="max-width: 100%;
+                  height: 400px; margin-bottom: 8px" alt="Zdjęcie obiektu" >
                   <div>
                     <h5 style="display:inline-block; margin-right: 10px;">Ocena</h5>
                     <span>
