@@ -5,6 +5,37 @@
                 <div class="card-body">
                   <h3 class="card-title">Kategorie</h3>
 
+                  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                    <div  class="form-inline">
+                        <div class="form-check">
+                          <input type="checkbox" id="exampleCheck1" formControlName="checkbox1">
+                          <label class="form-check-label" for="exampleCheck1">Zabytki</label>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" id="exampleCheck2" formControlName="checkbox2">
+                          <label class="form-check-label" for="exampleCheck2">Miejsca historyczne</label>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" id="exampleCheck3" formControlName="checkbox3">
+                           <label class="form-check-label" for="exampleCheck3">Obeikty przyrodnicze</label>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" id="exampleCheck4" formControlName="checkbox4">
+                          <label class="form-check-label" for="exampleCheck4">Obiekty kultury i sportu</label>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" id="exampleCheck5" formControlName="checkbox5">
+                          <label class="form-check-label" for="exampleCheck5">Galerie handlowe</label>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" id="exampleCheck6" formControlName="checkbox6">
+                          <label class="form-check-label" for="exampleCheck6">Inne</label>
+                        </div>
+                      </div>
+                      <br/>
+                      <button type="submit" class="btn my-1 btn-blue">Wyszukaj</button>
+                  </form>
+
                 </div>
             </div>
         </div>

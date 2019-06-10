@@ -6,12 +6,14 @@ import { CategoriesComponent } from './categories/categories.component';
 import { SearchingRoutingModule } from './searching-routing.module';
 import { QuestionsComponent } from './questions/questions.component';
 import { ViewComponent } from './view/view.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
     CommonModule,
     ReactiveFormsModule,
-    SearchingRoutingModule
+    SearchingRoutingModule,
+    FormsModule
   ],
   declarations: [
     SearchingComponent,
