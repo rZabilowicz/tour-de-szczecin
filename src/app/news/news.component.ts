@@ -11,7 +11,7 @@ export class NewsComponent implements OnInit {
 
   news: News[] = data.news;
 
-  constructor() { console.log(this.news);}
+  constructor() {}
 
   ngOnInit() {
   }
